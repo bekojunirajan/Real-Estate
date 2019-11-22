@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Open+Sans:400,600,700|Roboto:400,500,700&display=swap');
+/*-----GEneral----*/
+body{
+	font-family: "roboto", sans-serif;
+}
+.title-1{
+	font-family: 'Lato', sans-serif;
+	color: #555;
+}
+.title-3{
+	font-size: 20px;
+	font-size: "Lato", sans-serif;
+}
+.bl-green{
+	border-left: 4px solid #00b356;
+	padding: 5px 10px;
+}
+/*---------Header Section----------*/
+header{
+	position: absolute;
+	top: 0;
+	background: transparent;
+	z-index: 1000;
+	padding-left: 100px;
+}
+/*------------Naviagtion bar-------------*/
+.navbar-light .navbar-nav .nav-link {
+	font-family: "Open Sans", sans-serif;
+	color: #d5d5d5;
+	font-size: 18px;
+	padding-right: 50px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+	color: #fff;
+}
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+    color: #fff;
+}
+/*-------Slider----------------*/
+.carousel-item{
+	height: 100vh;
+}
+.slider-info-detail{
+	display: inline-block;
+	padding: 15px 20px;
+	background: #454545;
+}
+/*--------Search bar------------*/
+
+/*Short description of property*/
+.pro-desc{
+	border-right: 2px solid #d5d5d5;
+	padding: 10px 0 10px 20px;
+}
+#short-desc .pro-desc:last-child{
+	border-right: 0;
+}
+/*-------Our Houses---------------*/
+#our-houses{
+	padding-top: 30px;
+}
+.detailed-house-info-1{
+	background: rgb(245,245,245);
+	padding: 30px;
+	padding-left: 80px;
+	position: relative;
+	left: -100px;
+	z-index: 10;
+	width: 500px;
+	top: 25px;
+}
+.detailed-house-info-2{
+	background: rgb(245,245,245);
+	padding: 30px;
+	padding-left: 80px;
+	position: relative;
+	z-index: 10;
+	width: 500px;
+	top: 25px;
+}
+/*---------Owl Carousel---------*/
+#owlll{
+	background: #ffffea;
+	margin-top: 20px; 
+}
+/*------Feature List-------------*/
+.feature-list{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.feature-desc{
+	flex: 19%;
+	transition: 0.9s;
+	overflow: hidden;
+}
+.feature-desc:hover{
+	transform: scale(1.02);
+	box-shadow: 0px 0px 25px #333;
+	z-index: 100;
+}
+/*------Footer---------*/
+footer{
+	margin-top: 20px;
+	background: #1b3d6d;
+	color: white;
+}
+footer ul{
+	list-style: none;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+footer p{
+	padding-top: 20px;
+}
+footer ul li a{
+	color: #c5c5c5;
+}  
+footer ul li a:hover{
+	color: #fff;
+}
+footer .fa{
+	color: white;
+	font-size: 20px;
+	padding-left: 10px;
+}
+footer .fa:hover{
+	color: #aaa;
+}
+footer .copyright11 p{
+	color: #b5b5b5;
+	text-align: center;
+}
+footer .question .fa{
+	padding: 0;
+}
+/*-------about us page---------*/
+/*------Join Team--------*/
+#team-join{
+	margin-top: 20px;
+	background: #e5e5e5;
+}

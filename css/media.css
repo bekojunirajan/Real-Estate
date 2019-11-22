@@ -1,0 +1,22 @@
+@media (max-width: 480px){
+	header{
+		background: #999;
+		position: absolute;
+		width: 100%;
+	}
+	/*
+	#slider{
+		display: none;
+	}
+	*/
+	.detailed-house-info-1, .detailed-house-info-2{
+		position: static;
+		width: auto;
+	}
+	.feature-list{
+		overflow: hidden;
+	}
+	.feature-desc{
+		flex: 50%;
+	}
+}
